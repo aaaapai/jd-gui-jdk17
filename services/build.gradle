@@ -17,7 +17,7 @@ configurations {
 
 dependencies {
     implementation 'com.fifesoft:rsyntaxtextarea:3.3.4'
-    implementation 'org.ow2.asm:asm:9.5'
+    implementation 'org.ow2.asm:asm:9.7.1'
     implementation 'org.antlr:antlr4-runtime:4.13.1'
     implementation 'org.jd:jd-core:' + parent.jdCoreVersion
     implementation project(':api')
