@@ -15,6 +15,9 @@ plugins {
 }
 
 repositories {
+    maven {
+        url "https://jcenter.bintray.com/"
+    }
     mavenCentral()
     maven {
         url 'https://plugins.gradle.org/m2/'
